@@ -1,0 +1,121 @@
+:root{
+--Cyan: hsl(179, 62%, 43%);
+--Bright-Yellow: hsl(71, 73%, 54%);
+
+--Light-Gray: hsl(204, 43%, 93%);
+--Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karla';
+    background-color: var(--Light-Gray);
+    
+}
+.container{
+   margin: 50px auto; 
+   width: 90%;
+   
+}
+/* header */
+header{
+    background-color: white;
+}
+h1{
+    font-size: 1.5rem;
+    color: var(--Cyan);
+}
+h2{
+    font-size: 1.2rem;
+    margin: 10px 0px;
+    color: var(--Bright-Yellow);
+    font-weight: 700;
+}
+
+header p{
+    line-height: 1.6rem;
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+    font-size: 0.875rem;
+
+}
+
+/* cards */
+.cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.registration-card{
+    background-color: var(--Cyan);
+    flex-grow: 1;
+    /* margin: 0 auto; */
+    flex-basis: 200px;
+   
+}
+
+h3{
+    color: var(--Light-Gray);
+}
+span{
+    font-size: 10px;
+    color: var(--Light-Gray);
+    font-size: 1.875rem;
+ 
+}
+.registration-card p:first-of-type{
+    color: #68D2D5;
+    display: inline-block;
+    left: 5px;
+    position: relative;
+    bottom: 4px;
+    
+}
+.registration-card p:last-of-type{
+color: #D3F5F7;
+margin: 10px 0px;
+}
+h3{
+    margin: 13px 0px;
+}
+.btn a{
+    text-decoration: none;
+    color: var(--Light-Gray);
+    font-weight: 700;
+}
+.btn{
+    background-color: var(--Bright-Yellow);
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 5px;
+    padding: 14px;
+    width: 100%;
+    margin: 14px 0px;
+}
+
+/* service */
+.service-card{
+    background-color: #4ABEBD;
+    flex-basis:  200px;
+    flex-grow: 1;
+    /* margin: 0 auto; */
+}
+h4{
+    color: var(--Light-Gray);
+    margin: 13px 0px;
+}
+ul li{
+    list-style: none;
+    font: size 14px; 
+    line-height: 1rem;
+    color:  #D3F5F7;
+    margin: 10px 0px;
+}
+
+/* utility */ 
+.pad{padding: 20px 27px;}
