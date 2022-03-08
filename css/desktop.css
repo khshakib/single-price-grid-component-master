@@ -8,8 +8,19 @@ body{
 }
 .container{
     width: 46%;
+ 
     
 }
 .cards{
     flex-direction: row;
+}
+header{
+      border-radius: 10px 10px 0px 0px;
+}
+.registration-card{
+
+border-bottom-left-radius: 10px;
+}
+.service-card{
+    border-bottom-right-radius: 10px;
 }
