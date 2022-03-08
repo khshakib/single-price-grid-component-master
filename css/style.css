@@ -82,8 +82,8 @@ margin: 10px 0px;
 h3{
     margin: 13px 0px;
 }
-.btn a{
-    text-decoration: none;
+.btn span{
+    font-size: 16px;
     color: var(--Light-Gray);
     font-weight: 700;
 }
@@ -96,6 +96,9 @@ h3{
     padding: 14px;
     width: 100%;
     margin: 14px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
 }
 
 /* service */
